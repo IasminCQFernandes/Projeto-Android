@@ -1,0 +1,131 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(../android/fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body {
+    background-color: #84E1AD;
+    padding: auto ;
+    text-align: justify;
+    margin: auto;
+}
+
+header {
+    font-size: 0.8em;;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    padding: 10px;
+    margin: auto;
+background-image: linear-gradient(to top,#1A5C38,#39CF7C) ;
+text-align: center;
+}
+header p{
+    font-size: 1.2em;
+margin-bottom: 5px;
+}
+
+nav#menu ul{
+    background-color: #1a5c3800;
+    padding: 2px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.7s;
+}
+nav a:hover{
+    background-color:#39cf7c86;
+}
+nav li {
+    display: inline-block;
+   list-style: none;
+}
+.font-idroid {
+    color:#1A5C38;
+font-family: 'android', sans-serif;
+}
+.font-idroid span{
+    color: #1A5C38;
+}
+.link::after{
+    content:'🔗';
+}
+.visto::before{
+    content:'✔️';
+}
+.visto{
+    list-style: none;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px#1a5c3877;
+}
+main p{
+    font-size: 1.2em;
+    text-indent: 30px;
+}
+main h3{
+    background-image:linear-gradient(to right,#C7ECD8,#FFFFFF);
+}
+span{
+    color:#1A5C38;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    columns: 2;
+    background-color: #C5EBD6;
+}
+
+
+figcaption#bug {
+    text-align: center;
+    margin:auto;
+    width: auto;
+    padding: 0px;
+}
+div#video{
+    padding: 15px;
+    margin: 20px -20px;
+    background-color: #1A5C38;
+    text-align: center;
+}
+div#extra{
+    box-shadow:3px 3px 3px #1a5c38a9;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    padding:auto ;
+    background-color: #C5EBD6;
+}
+div#extra h2 {
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 10px;
+    color: white;
+background-color: #1A5C38;
+}
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
